@@ -1,7 +1,7 @@
 #include <iostream>
 #include"HashTables.h"
 
-HashTables hashtables;
+HashTables hashTables;
 
 int main()
 {
@@ -32,7 +32,7 @@ int main()
 			std::cin.ignore(std::cin.rdbuf()->in_avail());
 
 			//adding users input and phone number into array
-			hashtables.Add(userInput, phoneNumberInput);
+			hashTables.Add(userInput, phoneNumberInput);
 			break;
 		}
 		case'2'://EXIT
@@ -48,14 +48,14 @@ int main()
 			std::cin >> userInput;
 			std::cin.clear();
 			std::cin.ignore(std::cin.rdbuf()->in_avail());
-			std::cout << "phone number is: " << hashtables.Search(userInput) << std::endl;
+			std::cout << "phone number is: " << hashTables.Search(userInput) << std::endl;
 			break;
 		}
 		case '4'://DISPLAY ARRAY
 		{
-			for (size_t i = 0; i < hashtables.arraySize; i++)
+			for (size_t i = 0; i < hashTables.arraySize; i++)
 			{
-				std::cout << "index: " << (i) << "	 " << "name:" << hashtables.array[i].userName << "		" << "PhoneNumber:" << hashtables.array[i].phoneNumber << std::endl;
+				std::cout << "index: " << (i) << "	 " << "name:" << hashTables.array[i].userName << "		" << "PhoneNumber:" << hashTables.array[i].phoneNumber << std::endl;
 			}
 			break;
 		}
