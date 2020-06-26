@@ -6,18 +6,21 @@ public:
 	struct Table
 	{
 		bool valid = true;
-		std::string key;
+		std::string userName;
 		int phoneNumber;
 	};
 
 	HashTables();
 	~HashTables();
 
-	Table array[10];
+	static const int arraySize = 5;
+	Table array[arraySize];
 
 	unsigned int RSHash (const char* str, unsigned int length);
 
 	void Add(std::string userInput, unsigned int phoneNumber);
+
+	int Search(std::string userInput);
 
 
 };
