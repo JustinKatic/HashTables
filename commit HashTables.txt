@@ -1,0 +1,35 @@
+commit b5a2c33df59cd39589aa146facdf7fe2054dcb10
+Author: JustinKatic <60805792+JustinKatic@users.noreply.github.com>
+Date:   Wed Jul 1 07:36:55 2020 +1000
+
+    Update readme
+
+commit 99493215f7246200634066040bb66f45fa5808d6
+Author: Justin <justinkatic4@gmail.com>
+Date:   Fri Jun 26 15:28:20 2020 +1000
+
+    final commit  added commenting to alot of the functions
+
+commit e7a476b7724a5b697f450e78ad16e0ac340f91cc
+Author: Justin <justinkatic4@gmail.com>
+Date:   Fri Jun 26 14:17:34 2020 +1000
+
+    finished up with add function and search function
+
+commit 73d3e4612d8ffe643f01542128701ed3d933db31
+Author: Justin <justinkatic4@gmail.com>
+Date:   Thu Jun 25 16:47:55 2020 +1000
+
+    added add function
+
+commit 2022f98933297f35eaa3787f7762aa9ee2754dec
+Author: Justin <justinkatic4@gmail.com>
+Date:   Thu Jun 25 11:37:04 2020 +1000
+
+    Initial commit of setting up files
+
+commit 8c2985ddbde1e9d0efbcd0f8dfbb129bdd887232
+Author: JustinKatic <60805792+JustinKatic@users.noreply.github.com>
+Date:   Thu Jun 25 11:27:21 2020 +1000
+
+    Initial commit
